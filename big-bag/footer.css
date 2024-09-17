@@ -1,0 +1,366 @@
+
+.footer {
+	width: 100%;
+	background-color: #004561;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	height: 200px;
+	display: flex;
+
+}
+
+a{
+	text-decoration: none;
+}
+
+.footer a h2{
+	color: white;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 22px;
+}
+
+.footer h1{
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.about_us_footer{
+	margin-top: 1%;
+	margin-left: 4%;
+	width: 200px;
+}
+
+#line{
+	margin-top: 4px;
+	margin-bottom: 9px;
+	width: 45px;
+	height: 3px;
+	background-color: #fff;
+}
+
+
+.img_foot{
+	width: 280px;
+	margin-top: 5%;
+	float: left;
+}
+
+#logo_com {
+	padding: 13px;
+	width: 196px;
+	height: 56px;
+	background-color: #fff;
+	border-radius: 10px;
+	float: right;
+}
+
+#best_tara{
+	background-color: #fff;
+	padding: 8px 14px 12px 14px;
+	border-radius: 10px;
+	float: right;
+	margin-top: 8%;
+}
+
+.center_footer{
+	justify-content: center;
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.text_foot {
+	width: 300px;
+	float: right;
+	margin-top: 2.5%;
+}
+
+.text_foot p{
+	width: 200px;
+	font-size: 14px;
+	color: #b1b1b1; 
+}
+
+.text_foot h3{
+	font-weight: 500;
+	font-size: 14px;
+	margin-top:  11%;
+}
+
+.call_footer{
+	margin-top: 1%;
+	margin-right: 5%;
+	width: 250px;
+	text-align: right;
+}
+
+.call_footer h2{
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.call_footer a{
+	font-size: 20px;
+	margin-top: 2%;
+	font-weight: 600;
+	color: #fff;
+	font-weight: 600;
+}
+
+
+.call_button_footer{
+	width: 210px;
+	margin-top: 10%;
+	float: right;
+}
+
+.call_button_footer img{
+	width: 45px;
+	height: 45px;
+	float: left;
+}
+
+.call_button_footer h2{
+	float: right;
+	border: 2px #fff solid;
+	padding: 10px 20px;
+	border-radius:  5px;
+	cursor: pointer;
+}
+
+.mobile_footer_center{
+	display: none;
+}
+
+
+
+
+
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+@media screen and (max-device-width: 440px){
+
+body{
+	background-color: #fff !important;
+}
+
+	.footer {
+	width: 100%;
+	background-color: #004561;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	height: 600px;
+	display: block !important;
+	margin: 0px !important;
+
+
+}
+
+a{
+	text-decoration: none;
+}
+
+.footer a h2{
+	color: white;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 22px;
+
+}
+
+.footer h1{
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.about_us_footer{
+	padding-top: 5% !important;
+	margin-left: 4%;
+	width: 200px;
+	margin: 0px !important;
+	text-align: center;
+	width: 100%;
+
+}
+
+
+#line{
+	margin-top: 4px;
+	margin-bottom: 9px;
+	width: 45px;
+	height: 3px;
+	background-color: #fff;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+
+.img_foot{
+	width: 280px;
+	margin-top: 5%;
+	float: none !important;
+}
+
+#logo_com {
+	padding: 13px;
+	background-color: #fff;
+	border-radius: 10px;
+	float: right;
+	width: 120px;
+	height: 40px;
+}
+
+#best_tara{
+	background-color: #fff;
+	padding: 8px 14px 12px 14px;
+	border-radius: 10px;
+	float: right;
+	margin-top: 8%;
+	width: 60px;
+	height: 20px;
+}
+
+.center_footer{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	display: none;
+}
+
+.text_foot {
+	width: 100px;
+	float: right;
+	margin-top: 2.5%;
+}
+
+.text_foot p{
+	width: 200px;
+	font-size: 14px;
+	color: #b1b1b1; 
+}
+
+.text_foot h3{
+	font-weight: 500;
+	font-size: 14px;
+	margin-top:  11%;
+}
+
+.call_footer{
+	margin-top: 5% !important;
+	width: 100%;
+	text-align: center;
+}
+
+.call_footer h2{
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.call_footer a{
+	font-size: 20px;
+	margin-top: 2%;
+	font-weight: 600;
+}
+
+
+.call_button_footer{
+	width: 220px;
+	margin-top: 3%;
+	float: none !important;
+	display: inline-block;	
+}
+
+.call_button_footer img{
+	width: 45px;
+	height: 45px;
+	float: left;
+}
+
+.call_button_footer h2{
+	float: right;
+	border: 2px #fff solid;
+	padding: 10px 20px;
+	border-radius:  5px;
+	cursor: pointer;
+	margin-right: 4%;
+	margin-top: 1%;
+}
+
+.mobile_footer_center{
+	display: block;
+	width: 300px;
+
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+.img_foot1 #logo_com1 {
+	padding: 8px 15px 10px 15px;
+	background-color: #fff;
+	border-radius: 10px;
+	width: 100px;
+	height: 30px;
+	float: right;
+
+}
+
+.img_foot1 #best_tara1{
+	background-color: #fff;
+	padding: 8px 14px 12px 14px;
+	border-radius: 10px;
+	margin-top: 8%;
+	width: 60px;
+	height: 20px;
+	float: right;
+}
+
+.img_foot1{
+	width: 150px;
+	float: left;
+	margin-top: 55%;
+}
+
+.text_foot1{
+	width: 140px;
+	float: right;
+	margin-left: 2%;
+	margin-top: 15%;
+}
+
+.text_foot1 p{
+	font-size: 15px;
+	color: #b1b1b1;
+}
+
+.text_foot1 h3{
+	font-size: 10px;
+	margin-top: 10%;
+
+}
+
+
+}
